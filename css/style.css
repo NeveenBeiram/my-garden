@@ -1,0 +1,54 @@
+body{
+display: flex;
+flex-direction: column;
+height: 100vh;
+justify-content: space-between;
+}
+
+header{
+    text-align: center;
+    background-color: #3f8f8d;
+    height: 3%;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    
+}
+
+footer{
+    
+    text-align: center;
+    background: #5dc0a6;
+    height:5% ;
+    padding-top: 10px;
+    color: white;
+    
+}
+
+#formDiv{
+    width:20% ;
+}
+
+form {
+    width: 20%;
+    padding:3%;
+
+}
+form fieldset{
+    border:1px dotted black;
+    
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+}
+
+body div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    padding: 10px;
+    
+
+}
